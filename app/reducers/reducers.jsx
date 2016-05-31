@@ -40,6 +40,8 @@ export var todosReducer = (state = [], action) => {
             completed: !obj.completed,
             completedAt: !obj.completed ? moment().unix() : undefined
           };
+        } else {
+          return obj;
         }
       });
     default:
