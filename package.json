@@ -1,7 +1,7 @@
 {
-  "name": "boilerplate",
+  "name": "SimpleToDo",
   "version": "1.0.0",
-  "description": "simple react",
+  "description": "a simple todo application",
   "main": "index.js",
   "scripts": {
     "test": "karma start",
